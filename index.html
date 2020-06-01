@@ -6,22 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wizytówka</title>
     <link href="normalize.css" rel="stylesheet" type="text/css">
+    <link href="all.min.css" rel="stylesheet" type="text/css">
     <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="all.min.js"></script>
 </head>
 
 <body>
     <main class="business-card">
         <article class="person">
-            <img class="person__image"src="avatar.png" alt="my picture">
-            <header class="person__info">
-                <h1 class="person__name">Rafał Duma</h1>
-                <p class="person__job-position">Frontend Developer</p>
-            </header>
-            <p class="person__description person__description--margin">Programista z <span class="person-special">kilkunastoletnim doświadczeniem</span>, fotograf, operator drona, właściciel Sokoła Millennium (na
-                razie tylko z Lego), <span class="person-special">prelegent i szkoleniowiec</span>. Uwielbia eksperymentować z nowymi technologiami, w
-                swojej twórczości ocierając się o sztukę.
-            </p>
-            <p class="person__description">W sieci: <a class="person__link" href="#">Facebook</a>, <a class="person__link" href="#">GitHub</a>, <a class="person__link" href="#">Instagram</a>.</p>
+            <img class="person__image" src="RD.png" alt="my picture">
+            <div>
+                <header class="person__info">
+                    <h1 class="person__name">Rafał Duma</h1>
+                    <p class="person__job-position">Frontend Developer</p>
+                </header>
+                <p class="person__description person__description--margin">Programista z <span
+                        class="person-special">kilkuletnim doświadczeniem</span>, fotograf amator i podróżnik.
+                    Zamiłowanie do eksperymentowania z grafiką pozwala spełniać się w pracy jako <span
+                        class="person-special">frontendowiec</span>.
+                    Szukanie nowych pomysłow pozwala kreować ciekawe i przykuwające wzrok aplikacje internetowe.
+                </p>
+                <p class="person__description person__description--social"> 
+                    <a class="person__link" href="https://www.facebook.com/rafal.duma"
+                        data-toggle="tooltip" title="Facebook">
+                        <i class="fab fa-facebook icon_right"></i></a>
+                    <a class="person__link" href="https://github.com/egonralph" data-toggle="tooltip" title="GitHub"><i
+                            class="fab fa-github icon_right"></i></a>
+                    <a class="person__link" href="https://www.instagram.com/rafalduma/?hl=pl" data-toggle="tooltip" title="Instagram"><i
+                            class="fab fa-instagram icon_right"></i></a>
+                </p>
+            </div>
         </article>
     </main>
 </body>

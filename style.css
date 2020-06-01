@@ -22,12 +22,30 @@ body {
     margin: 16px;
     padding: 32px;
 }
-
+.fa-facebook{
+    color: blue;
+}
+.fa-github{
+    color: #555555;
+}
+.icon_right{
+    margin-right: 0.5em;
+}
+.fa-instagram{
+    color: #d6249f;
+}
 .person {
-
+    display: flex;
+    align-items: flex-start;
+}
+.person__description--social{
+    text-align: center;
 }
 .person__image {
-
+    margin-right: 32px;
+    border-radius: 50%;
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .person__info {
     margin-bottom: 15px;
@@ -57,5 +75,11 @@ body {
     font-weight: 600;
 }
 .person-special {
-    color: #ED6D05;
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #ffaa00, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
