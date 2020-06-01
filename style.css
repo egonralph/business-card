@@ -30,10 +30,10 @@ body {
 
 }
 .person__info {
-
+    margin-bottom: 15px;
 }
 .person__name {
-    font-size: 36x;
+    font-size: 25px;
     margin: 0;
     font-weight: normal;
 }
@@ -44,8 +44,12 @@ body {
     font-style: italic;
 }
 .person__description {
-    font-style: 16px;
+    font-size: 16px;
     line-height: 22px;
+    margin: 0;
+}
+.person__description--margin {
+    margin-bottom: 16px;
 }
 .person__link {
     color: #E20613;
@@ -54,7 +58,4 @@ body {
 }
 .person-special {
     color: #ED6D05;
-}
-.person__web {
-
 }
